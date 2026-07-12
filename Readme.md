@@ -101,7 +101,7 @@ Para os métodos `POST` e `PUT`, a API espera receber um objeto JSON simplificad
 
 ```json
 {
-  "name": "Bruno",
+  "nome": "Bruno",
   "cep": "01001-000"
 }
 ```
