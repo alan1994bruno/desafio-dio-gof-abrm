@@ -71,7 +71,7 @@ public class ClienteService implements IClienteService {
 
         Cliente cliente = new Cliente();
         cliente.setEndereco(endereco);
-        cliente.setNome(clienteDTO.name());
+        cliente.setNome(clienteDTO.nome());
 
         return clienteRepository.save(cliente);
     }
